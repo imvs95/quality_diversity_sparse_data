@@ -1,0 +1,14 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+*/__pycache__/*
+__pycache__
+.idea
+venv
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+
+# Large files
+exp_results_p4
+dec_var_qd_density_40000_cnhk_usa.pkl
