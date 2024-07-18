@@ -12,3 +12,4 @@ venv
 # Large files
 exp_results_p4
 dec_var_qd_density_40000_cnhk_usa.pkl
+dec_var_qd_density_10000_cnhk_usa.pkl
