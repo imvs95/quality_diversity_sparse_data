@@ -7,7 +7,7 @@ We define the structure of a supply chain simulation model as a key value of a d
 To use this repository, we need a simulation model developed in `pydsol-core <https://github.com/averbraeck/pydsol-core>`_ and `pydsol-model <https://github.com/imvs95/pydsol-model>`_ . Additionally, we need a dictionary with various different simulation structures as input, as well as the ground truth data.
 For this project, we use the repository `complex_stylized_supply_chain_model_generator <https://github.com/imvs95/complex_stylized_supply_chain_model_generator>`_ as simulation model.
 
-This repository is also part of the Ph.D. thesis of `Isabelle M. van Schilt <https://www.tudelft.nl/staff/i.m.vanschilt/?cHash=74e749835b2a89c6c76b804683ffbbcf>`_, Delft University of Technology.
+This repository is also part of the Ph.D. thesis of `Isabelle M. van Schilt <https://www.tudelft.nl/staff/i.m.vanschilt/?cHash=74e749835b2a89c6c76b804683ffbbcf>`_, Delft University of Technology. The version of the code used in the Ph.D. thesis is available at doi: `10.4121/766f4e89-fa03-47c6-a9f2-fa41f241984b.v1 <https://doi.org/10.4121/766f4e89-fa03-47c6-a9f2-fa41f241984b.v1>`_.
 
 Content
 =====================================================
@@ -22,7 +22,7 @@ The following folders can be found in this repository:
 The following files can be found in this repository:
 
 * *cma_es_with_sol_constraints.py*: The CMA-ES algorithm with case-specific constraints on the solutions.
-* *dec_var_qd_density_40000_cnhk_usa.pkl*: The dictionary with 40.0000 different supply chain structures, sorted on graph density. File upon request (Large File).
+* *dec_var_qd_density_40000_cnhk_usa.pkl*: The dictionary with 40.0000 different supply chain structures, sorted on graph density. File upon request (Large File) or available at  doi: `10.4121/adf4373c-7a9a-4d9c-a1ff-0f893d8d0b06.v1 <https://doi.org/10.4121/adf4373c-7a9a-4d9c-a1ff-0f893d8d0b06.v1>`_.
 * *run_sim_model_obj.py*: The script for running the simulation model within the quality diversity algorithm. This script is needed for multiprocessing. The behavior space is the number of vertices and the time in system.
 * *run_sim_model_obj_complexbs.py*: The script for running the simulation model within the quality diversity algorithm. This script is needed for multiprocessing. The behavior space is the density of the graph network and the transport cost. This script is used in the Ph.D. thesis.
 * *run_sim_model_obj_complexbs_params.py*: The script for running the simulation model within the quality diversity algorithm. This script is needed for multiprocessing. The behavior space is the detection probability of parcels and the transport cost.
